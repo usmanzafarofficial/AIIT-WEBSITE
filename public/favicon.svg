@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#1e293b" stroke="#00d4ff" stroke-width="4"/>
+  
+  <!-- Neural Network Nodes -->
+  <circle cx="100" cy="100" r="12" fill="#00d4ff"/>
+  <circle cx="70" cy="80" r="8" fill="#7c3aed"/>
+  <circle cx="130" cy="80" r="8" fill="#7c3aed"/>
+  <circle cx="60" cy="120" r="8" fill="#7c3aed"/>
+  <circle cx="140" cy="120" r="8" fill="#7c3aed"/>
+  <circle cx="85" cy="140" r="8" fill="#06b6d4"/>
+  <circle cx="115" cy="140" r="8" fill="#06b6d4"/>
+  <circle cx="100" cy="60" r="8" fill="#06b6d4"/>
+  
+  <!-- Neural Network Connections -->
+  <path d="M100 88 L70 88 M100 88 L130 88 M100 88 L60 112 M100 88 L140 112 M100 112 L85 132 M100 112 L115 132 M100 88 L100 68" 
+        stroke="#7c3aed" stroke-width="4" opacity="0.8"/>
+</svg>

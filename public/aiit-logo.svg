@@ -1,0 +1,52 @@
+<svg width="192" height="192" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="3"/>
+  
+  <!-- Neural Network Nodes -->
+  <circle cx="100" cy="100" r="10" fill="#00d4ff"/>
+  <circle cx="70" cy="80" r="7" fill="#7c3aed"/>
+  <circle cx="130" cy="80" r="7" fill="#7c3aed"/>
+  <circle cx="60" cy="120" r="7" fill="#7c3aed"/>
+  <circle cx="140" cy="120" r="7" fill="#7c3aed"/>
+  <circle cx="85" cy="140" r="7" fill="#06b6d4"/>
+  <circle cx="115" cy="140" r="7" fill="#06b6d4"/>
+  <circle cx="100" cy="60" r="7" fill="#06b6d4"/>
+  
+  <!-- Neural Network Connections -->
+  <path d="M100 90 L70 87 M100 90 L130 87 M100 90 L60 113 M100 90 L140 113 M100 110 L85 133 M100 110 L115 133 M100 90 L100 67" 
+        stroke="url(#connectionGradient)" stroke-width="3" opacity="0.8"/>
+  
+  <!-- AI Text -->
+  <text x="100" y="175" text-anchor="middle" fill="url(#textGradient)" font-family="Arial Black, Arial" font-size="28" font-weight="900">AIIT</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M35 35 L50 25 M35 25 L50 35" stroke="#00d4ff" stroke-width="3" opacity="0.7"/>
+  <path d="M150 35 L165 25 M150 25 L165 35" stroke="#7c3aed" stroke-width="3" opacity="0.7"/>
+  <path d="M35 165 L50 175 M35 175 L50 165" stroke="#06b6d4" stroke-width="3" opacity="0.7"/>
+  <path d="M150 165 L165 175 M150 175 L165 165" stroke="#00d4ff" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="gradient1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff" />
+      <stop offset="50%" style="stop-color:#7c3aed" />
+      <stop offset="100%" style="stop-color:#06b6d4" />
+    </linearGradient>
+  </defs>
+</svg>

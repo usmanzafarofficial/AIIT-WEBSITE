@@ -1,0 +1,31 @@
+{
+  "short_name": "AIIT",
+  "name": "AIIT - AI Institute of Technology",
+  "description": "Expert AI solutions, Machine Learning, and Data Science consulting services",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "aiit-logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "aiit-logo.svg",
+      "type": "image/svg+xml", 
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#00d4ff",
+  "background_color": "#0f172a",
+  "categories": ["business", "education", "productivity", "technology"]
+}
