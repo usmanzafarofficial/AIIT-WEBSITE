@@ -116,13 +116,16 @@ const Navigation: React.FC = () => {
                 </motion.div>
               ))}
               
-              <motion.button
+              <motion.a
+                href="https://chat.whatsapp.com/CIkuvAwYIEf5JyaRvqqnj1?mode=ems_copy_t"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
               >
                 Get Started
-              </motion.button>
+              </motion.a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -170,14 +173,17 @@ const Navigation: React.FC = () => {
                     </Link>
                   </motion.div>
                 ))}
-                <motion.button
+                <motion.a
+                  href="https://chat.whatsapp.com/CIkuvAwYIEf5JyaRvqqnj1?mode=ems_copy_t"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: navItems.length * 0.1 }}
                   className="w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full font-medium mt-4 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
                 >
                   Get Started
-                </motion.button>
+                </motion.a>
               </div>
             </motion.div>
           )}
